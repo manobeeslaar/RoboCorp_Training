@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation       Insert the sales data for the week and export it as a PDF.
 
-Library             RPA.Browser.Selenium    auto_close=${FALSE}
+Library             RPA.Browser.Selenium    auto_close=${TRUE}
 
 
 *** Tasks ***
